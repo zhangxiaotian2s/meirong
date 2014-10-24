@@ -1,0 +1,22 @@
+
+.width1000{ width: 1000px; margin:0 auto; }
+.park01{ border: #ececec solid 1px;border-radius: 8px ;}
+
+section header{ margin-top: 10px;}
+
+.park01_1_left{ width: 520px; float: left; padding: 0px 20px;}
+.park01_1_left p{ font-size: 14px; line-height: 24px; color: #666666; text-indent: 28px;}
+.park01_1_left a.more{ display: block; width: 200px; padding-right: 10px; text-align: right; background: #c70081; height: 28px; line-height: 28px;
+color: #FFFFFF; margin-left: 250px;;}
+.park01_1_right{ float: left; width: 410px;;}
+
+.park01 ul li{ width: 296px; height: 180px; padding: 5px; border: #D2D2D2 solid 1px; float: left; margin: 10px;;}
+
+.zxzx{ width: 228px; height: 42px; display: block; margin: 0 auto;}
+
+.park02{border: #ececec solid 1px;border-radius: 8px ;} 
+
+.park02 ul{ margin: 0px 24px;}
+.park02 ul li{ float: left;}
+
+.park03{ border: #ececec solid 1px;border-radius: 8px ;}
