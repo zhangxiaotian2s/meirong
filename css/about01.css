@@ -37,7 +37,7 @@
 
 .park04_right_imgbox{ width:132px; height:132px;margin:0 auto; position:relative}
 .park04_right_imgbox_span{ width:132px; height:132px; background:url(../images/artical03.png) no-repeat center; top:0px; left:0px;}
-.park04_right ul li:hover i{ background:#6b528b; color:#FFF; transition-duration:1s;}
+
 .park04_right ul li i{ display:block; position:relative ; width:42px; height:42px; background:#FFF;  text-align:center; line-height:42px; font-style:normal; margin:8px auto}
 
 .park04_right_spani{ display:block; width:42px; height:42px; top:0px; left:0px; background:url(../images/artical04.png)}
@@ -62,5 +62,10 @@
 .park06_content{ width:100%; height:500px; background:url(../images/bk30.png) no-repeat  top left; overflow:hidden }
 
 .park06_content h2{ position:relative; color:#705990; height:50px; width:240px; margin-top:12px; background:url(../images/about1_park06h2_bk.png) no-repeat center bottom; text-align:center ; line-height:50px; font-size:22px; font-weight:normal}
-.park06_content h2 i{ display:block; width:28px; height:28px; border:#fff solid 2px; border-radius:15px; position:absolute; left:0px; top:10px; line-height:28px; text-align:center ; font-size:18px; font-style:italic}
+.park06_content h2 i{ display:block; width:36px; height:36px;  position:absolute; left:0px; top:6px; line-height:36px; text-align:center ; font-size:18px; background:url(../images/artical05.png); font-style:normal; color:#FFF}
 .park06_content hgroup{ margin-top:30px;}
+
+.park06_station01{ margin-left:520px;}
+.park06_station02{margin-left:580px;}
+.park06_station03{ margin-left:620px;}
+.park06_station04{margin-left:630px;}
