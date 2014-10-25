@@ -20,6 +20,16 @@ section header{ margin-top: 10px;}
 .park02{border: #ececec solid 1px;border-radius: 8px ;} 
 
 .park02 ul{ margin: 0px 24px;}
-.park02 ul li{ float: left;}
-
+.park02 ul li{ float: left; width:238px; height:340px;}
+.park02 ul li p{ width:80%; padding:0px 10%; height:88px; line-height:20px; font-size:14px; margin-top:80px;}
+.park02 ul li img{ margin-left:24px; box-shadow:1px 1px 2p #000;
+transform:rotate(-2deg);transform-origin:0% 0%;
+ -webkit-transform:rotate(-2deg);-webkit-transform-origin:0% 0%;
+  -moz-transform:rotate(-2deg);-moz-transform-origin:0% 0%;
+   -o-transform:rotate(-2deg);-o-transform-origin:0% 0%;
+}
+.park02_01{ background:url(../images/bk07.png)}
+.park02_02{background:url(../images/bk08.png)}
+.park02_03{background:url(../images/bk09.png)}
+.park02_04{background:url(../images/bk10.png)}
 .park03{ border: #ececec solid 1px;border-radius: 8px ;}

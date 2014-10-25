@@ -14,7 +14,7 @@
 .nr_dyp_nav{ height:32px; width:100%; background:#6b528b}
 .nr_dyp_nav ul li { float:left;line-height:32px; cursor:pointer}
 .nr_dyp_nav ul li  h2{ font-size:14px; font-weight:normal; color:#FFF; width:118px; border-right:#FFF solid 1px; text-align:center;  }
-.nr_dyp_nav ul li.nr_dyp_navli_cur{background:#68208d url(../images/downicon.png) no-repeat center right; }
+.nr_dyp_nav ul li.nr_dyp_navli_cur{ background:#68208d url(../images/downicon.png) no-repeat center right; _background:#68208d }
 
 .nr_dyp_box{ width:100%; overflow:hidden}
 .nr_dypdiv p{ font-size:12px; line-height:26px; margin:10px 0px; text-indent:24px; color:#666 }

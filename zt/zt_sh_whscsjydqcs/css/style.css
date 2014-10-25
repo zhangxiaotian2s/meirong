@@ -24,6 +24,8 @@
 
 .park03_scroll_box{ width:868px ; height: 338px; margin: 20px auto; background:url(../images/bk02.png); overflow: hidden; position: relative;}
 .park03_scroll_box ul li{ float: left; margin: 25px 40px; display: inline;}
+.park03_scroll_box ul li figure{ float:left; margin:5px; display:inline}
+.park03_scroll_box ul li figure figcaption{ text-align:center}
 .park03_scroll_box ul { position: absolute; left: 0px; width: 5000px;}
 
 .left_btn{ position: absolute; top: 40%; left: 0px;}
