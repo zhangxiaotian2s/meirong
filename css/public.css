@@ -61,6 +61,7 @@ img{ border:0;}
 .tsxm ul li{ float:left; padding:10px 15px; background:url(../images/bk19.gif) no-repeat center right }
 .tsxm ul li a{ color:#FFF; font-size:14px; line-height:30px; font-weight:400}
 .tsxm ul li a.tsxm_cur{ color:#f2c013}
+.tsxm ul li .tsxm_zj{ display:block; width:188px;}
 
 /************底部样式******************/
 .foot_nav{ background:#292929; height:280px;} 
