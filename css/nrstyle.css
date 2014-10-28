@@ -38,10 +38,11 @@
 .ybzx_ul li h3 a:hover{ color:#6a158c; text-decoration:underline}
 
 .yszjalH2{ background:url(../images/bk20.png); height:46px; width:680px; padding-left:38px; font-size:18px; line-height:36px; font-weight:normal; color:#a071b5}
-.ysxmH2_ul li{ width:100p%; height:98px; margin:10px 0px;}
-.ysxmH2_ul li img{ display:block; float:left; margin-right:10px; display:inline}
-.ysxmH2_ul li div{ float:left; width:550px; height:92px;  border-radius:6px; box-shadow:0px 0px  6px #999999}
-.ysxmH2_ul li div i{ display:block; float:left; height:92px; font-size:60px; line-height:92px; font-family:Impact; font-style:normal; color:#d2d2d2; padding:0px 20px;}
+.ysxmH2_ul li{ width:100p%; height:110px; margin:15px 0px;}
+.ysxmH2_ul li img{ display:block; float:left; margin-right:20px; display:inline; border:#935fa9 solid 1px}
+.ysxmH2_ul li img:hover{ box-shadow:1px 1px 2px #999999; }
+.ysxmH2_ul li div{ float:left; width:540px; height:110px;  border-radius:6px; box-shadow:0px 0px  6px #999999}
+.ysxmH2_ul li div i{ display:block; float:left; height:110px; font-size:60px; line-height:102px; font-family:Impact; font-style:normal; color:#d2d2d2; padding:0px 20px;}
 .ysxmH2_ul li div  h3{ font-size:18px; line-height:32px; margin-top:15px; font-weight:normal;color:#666}
 .ysxmH2_ul li div p{ font-size:12px; color:#666 }
 
