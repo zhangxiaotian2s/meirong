@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.anliwrap{ width:1000px; margin:0 auto; padding:10px; background:#FFF}
+
+.anlilist_mbx{ background:url(../images/bk61.png); width:1000px; height:56px; position:relative;}
+.anlilist_mbx .mbx{ width:320px; float:right; height:42px;  font-size:14px; line-height:42px;color:#666666 ; padding-left:30px; background:url(../images/weizhiicon.png) no-repeat  center  left ; margin-top:10px;}
+.anlilist_mbx .mbx a{ color:#666666}
+.anlilist_mbx .mbx a:hover{ text-decoration:underline; color:#633875}
+
+.anli_nav{ width:1000px; height:37px; background:url(../images/bk62.png); position:relative;}
+.anli_nav_box{ width:820px;margin-left:40px; height:37px; overflow:hidden; position:relative;}
+.anli_nav_box ul{ width:3000px; position: absolute; left:0px; top:0px;}
+.anli_nav_box ul li{ float:left; font-size:14px; text-align:center; width:102px; line-height:37px;}
+.anli_nav_box ul li a{ color:#FFF}
+.anli_nav_box ul li a:hover{ text-decoration:underline}
+.anli_nav_btn{ width:50px; height:21px; position:absolute; right:50px;  top:7px; }
+.anli_nav_btn a{ display:block; width:21px; height:21px; background-image:url(../images/bk67.png); float:left; margin:0px 2px; display:inline}
+.anli_nav_btn .left_btn{ background-position:0px 0px}
+.anli_nav_btn .right_btn{ background-position:22px 0px}
+.anli_nav_btn .left_btn:hover{background-position:0px  22px }
+.anli_nav_btn .right_btn:hover{background-position:22px  22px}
+
+.sqsh_img{ width:992px; border:#C60 solid 4px; position:relative}
+
+.sqsh_img_box{ width:768px;  height:320px; margin:20px auto; padding:4px; border:#CCC solid 1px; overflow:hidden; box-shadow:0px 0px 3px #999999; position:relative}
+.sqsh_img_box ul{ position: absolute; left:0px; top:4px; width:8000px;}
+.sqsh_img_box ul li{ width:768px; height:320px; overflow:hidden; float:left; margin:0px 4px; display:inline}
+.sqsh_img_box ul li figure{ width:384px; height:320px; overflow:hidden; float:left; position:relative}
+.sqsh_img_box ul li figure figcaption{ position:absolute;  right:20px; bottom:5px; font-size:18px; color:#666;}
+.sqsh_img .sqsh_left_btn{ display:block; width:35px; height:107px; background:url(../images/bk68.png) 0px 0px; position:absolute; left:40px; top:120px;}
+.sqsh_img .sqsh_right_btn{ display:block; width:35px; height:107px; background:url(../images/bk68.png) 35px 0px; position:absolute; right:40px; top:120px;}

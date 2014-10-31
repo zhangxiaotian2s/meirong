@@ -485,11 +485,11 @@ $(document).ready(function(e) {
 			
 			//导航下拉
 			$(".in_nav ul li.nav_havedown").hover(function(){
-			   $(this).find(".nav_down_box").stop(true)
+			 
 				$(this).find(".nav_down_box").slideDown(500);
 				
 				},function(){
-				   
+				   $(this).find(".nav_down_box").stop(true)
 					$(this).find(".nav_down_box").slideUp(500)
 					
 					})
