@@ -55,19 +55,22 @@
 		//处理自动滚动的方法 默认自动左右形式的
 		function startDirection() {
 		
-			if (Parameter.BnanerGeshu * i >= ImgBox.children(Parameter.ImgBoxChild).length-Parameter.deomShownum) {
+			if (Parameter.BnanerGeshu * i >=ImgBox.children(Parameter.ImgBoxChild).length-Parameter.deomShownum) {
 				i = 0;
 			   }
-				if(Parameter.type==0){	
-				ImgBox.animate({
+				
+			 switch(Parameter.type){
+				 case 0:
+				  ImgBox.animate({
 					"left": -ImgBox.children(Parameter.ImgBoxChild).outerWidth(true) * Parameter.BnanerGeshu * i
 				},
 				Parameter.OverTime);
-				}
-				else if(Parameter.type==1){
-					ImgBox.children(Parameter.ImgBoxChild).hide();
+				 break;
+				 case 1:
+				 ImgBox.children(Parameter.ImgBoxChild).hide();
 					ImgBox.children(Parameter.ImgBoxChild).eq(i).fadeIn(Parameter.OverTime);	
-				}	
+				 break;
+			 }	
 		
 			//按钮处理方法执行
 			btnFn(i);
