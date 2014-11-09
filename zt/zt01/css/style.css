@@ -14,8 +14,10 @@
    background: url(../images/icon_zxzx.png) no-repeat  center left; height: 20px; line-height: 16px; display: block; }
 .park01 header .zxzx:hover{ color:#edbdfd;}
 
-.park01_01{  float:left;width:380px ; height: 336px; overflow: hidden; background: url(../images/bk05.png) no-repeat center right; padding:0px 10px;}
 
+.park01_01{  float:left;width:680px ; height: 336px; overflow: hidden; background: url(../images/bk05.png) no-repeat center right; padding:0px 10px; position:relative}
+
+.park01_tel{ position:absolute; bottom:0px;}
 .park01_01 p{ font-size: 16px; line-height: 28px; color: #666666;}
 
 
